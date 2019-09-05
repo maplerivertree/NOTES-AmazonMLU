@@ -1,7 +1,7 @@
 ### Importing the Data ###
 
 # Load training data
-eider.s3.download('s3://eider-datasets/mlu/Book_Ratings.csv', '/tmp/Book_Ratings.csv')
+eider.s3.download('CONFIDENTIAL')
 data = pd.read_csv('tmp/Book_Ratings.csv', dtype = {'User': str, 'ASIN': str, 'Rating': np.int})
 
 print("Sample Data")
