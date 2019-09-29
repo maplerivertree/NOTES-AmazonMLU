@@ -17,7 +17,7 @@ for steps in i-1:
 print(x_list)
 plt.plot(i, x_list, color = "k")
 
-###================================== yse Gradient Descent with Momentum
+###================================== use Gradient Descent with Momentum
 a = 0.5 #damping factor
 def mmtm(x_i, v_previous, lr):
     v = v_previous
