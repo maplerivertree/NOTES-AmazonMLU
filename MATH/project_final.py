@@ -2,6 +2,10 @@
 from sklearn.datasets import load_digits
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import Binarizer
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
  
 eider.s3.download('s3://eider-datasets/mlu/Book_Ratings.csv', '/tmp/Book_Ratings.csv')
 data = pd.read_csv('tmp/Book_Ratings.csv', dtype = {'User': str, 'ASIN': str, 'Rating': np.int})
