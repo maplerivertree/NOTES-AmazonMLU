@@ -5,6 +5,12 @@
 eider.odin.setAwsCredential("xxxxxxxxxxxxxxxxxxx)
 
 
+			    
+			    
+			    
+			    
+			    
+			    
 import pandas as pd
 import numpy as np
 eider.s3.download('s3://eider-datasets/mlu/DATA_Training.csv','/tmp/DATA_Training.csv')
